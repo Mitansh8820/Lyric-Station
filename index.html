@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- Created By Mitansh -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home - Lyric Station</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<style>
+	.blurImg{
+	width: 100%;
+	height: 100%;
+	background-image: url('blur.png');
+}
+	</style>
+  </head>
+  
+  <!--...........................Body..................................-->
+  
+  <body>
+    <nav>
+      <div class="menu-icon">
+<span class="fas fa-bars"></span></div>
+
+<div class="logo">
+<img src = "lyrics.png" width="70%"></div>
+
+<div class="nav-items">
+<li><a href="Index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="Request Lyrics.html">Request Lyrics</a></li>
+</div>
+
+<!--SEARCH BAR CODING-->
+
+<div class="search-icon">
+<span class="fas fa-search"></span></div>
+<div class="cancel-icon">
+<span class="fas fa-times"></span></div>
+<form action="#">
+        <input type="search" class="search-data" placeholder="Search" required>
+        <button type="submit" class="fas fa-search"></button>
+      </form>
+</nav>
+
+<!--SEARCH BAR CODING ENDS-->
+
+<!--Blur Image-->
+<div class = "blurImg">
+<ul>
+   <li> 
+    <span style="font-size:11px">
+	Welcome to Lyrics Station, Here you will get almost all the lyrics of the songs,<br> just search and enjoy with the lyrics of the songs, Thanks for visiting, Keep visiting!😊
+	</span>
+   </li>
+  </ul>
+
+    <div class="content">
+      <header class="space"><!--Responsive Navbar with Search Box--></header>
+      <div class="space text">
+<!--using HTML CSS & JavaScript-->
+</div>
+</div>
+</div>
+
+   <!--ALL CONTENT (JUST ADDED SONGS)-->
+   
+   <div class= "just-added-text">
+    JUST ADDED SONGS LYRICS<br>
+	<br>
+	</div>
+	<div class= "just-added-hr">
+    <hr width="60%">
+	</div>
+   
+   <!--ALL CONTENT (JUST ADDED SONGS) ""ends""-->
+   
+    <div class="Follow-Us">
+      <div class="follow">Contact Us</div> <br>
+	<center><hr width="75%"></hr></center>
+	<br>
+	
+	<a href="https://www.facebook.com/mitansh.choudhary.227/"><img src="fb.png" class= "girl"></a>
+	<a href="https://www.instagram.com/innocent_mitti/"><img src="insta.png" class= "in"></a>
+	<a href="mailto:legendaryuser.227@gmail.com"><img src="gmail.png" class= "gmail"></a>
+	</div>
+	
+   <div class="contentss">
+    <a href="https://mitansh8820.github.io/Titliaan-Pata-Nahi-Ji-Konsa-Nasha-Karta-Hai-Lyrics-Lyric-Station/"><img src="titliaan-lyrics.jpg" height="200" width="380">
+   </div>
+   
+   <div class="contentsss">
+    <a href="https://mitansh8820.github.io/FIRST-KISS-LYRICS-Yo-Yo-Honey-Singh-Lyric-Station/"><img src="First-kiss.jpg" height="200" width="380">
+   </div>
+
+<script>
+    const menuBtn = document.querySelector(".menu-icon span");
+    const searchBtn = document.querySelector(".search-icon");
+    const cancelBtn = document.querySelector(".cancel-icon");
+    const items = document.querySelector(".nav-items");
+    const form = document.querySelector("form");
+    menuBtn.onclick = ()=>{
+      items.classList.add("active");
+      menuBtn.classList.add("hide");
+      searchBtn.classList.add("hide");
+      cancelBtn.classList.add("show");
+    }
+    cancelBtn.onclick = ()=>{
+      items.classList.remove("active");
+      menuBtn.classList.remove("hide");
+      searchBtn.classList.remove("hide");
+      cancelBtn.classList.remove("show");
+      form.classList.remove("active");
+      cancelBtn.style.color = "#ff3d00";
+    }
+    searchBtn.onclick = ()=>{
+      form.classList.add("active");
+      searchBtn.classList.add("hide");
+      cancelBtn.classList.add("show");
+    }
+  </script>
+
+  </body>
+</html>
