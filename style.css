@@ -107,11 +107,11 @@ k{
 	margin-top: -139%;
 }
 .contentss{
-	padding-left: 100px;
+	padding-left: 110px;
 	margin-top: -56px;
 }
 .contentsss{
-	padding-left: 500px;
+	padding-left: 510px;
 	margin-top: -17%;
 }
 .didnot{
@@ -483,6 +483,9 @@ nav .logo.space{
     .just-added-hr{
 	margin-left: 70px;
     }
+	.just-added-hr hr{
+	 width: 80%;
+    }
 	.Follow-Us{
 	margin-left: 0%;
 	margin-top: 900px;
@@ -510,6 +513,60 @@ nav .logo.space{
 }
 
 /* Contents Media Code 980PX  ENDS!! */
+
+
+/* Contents Media Code 700PX !! */
+
+@media screen and (max-width: 700px) {
+    .contentss{
+	padding-left: 100px;
+	margin-top: -950px;
+    }
+	.contentss img{
+	height: 50%;
+	width: 85%;
+    }
+   .contentsss{
+	padding-left: 100px;
+	margin-top: 20px;
+    }
+	.contentsss img{
+	height: 50%;
+	width: 85%;
+    }
+	.just-added-text{
+	margin-left: -165px;
+	font-size: 20px;
+    }
+    .just-added-hr{
+	margin-left: -34px;
+    }
+	.just-added-hr hr{
+	width: 92%;
+    }
+	.Follow-Us{
+	margin-left: 0%;
+	margin-top: 850px;
+}
+.girl{
+    clip-path: circle();
+	width: 50px;
+	margin-left: 230px;
+}
+.in{
+    clip-path: square();
+	width: 50px;
+	margin-left: 45px;
+}
+.gmail{
+    clip-path: circle();
+	width: 50px;
+	margin-left: 45px;
+}
+}
+}
+
+/* Contents Media Code 700PX ENDS!! */
 
 @media (max-width: 500px){
   nav .menu-icon,
