@@ -108,11 +108,15 @@ k{
 }
 .contentss{
 	padding-left: 100px;
-	margin-top: -50px;
+	margin-top: -60px;
 }
 .contentsss{
 	padding-left: 500px;
-	margin-top: -205px;
+	margin-top: -19%;
+}
+.didnot{
+	padding-left: 100px;
+	padding-top: 50px;
 }
 .blurImg ul li {
   color: white;
@@ -390,13 +394,17 @@ nav .logo.space{
   color: red;
   padding: 0 5px 0 0;
 }
+
+/* NAV BAR CODE ENDS HERE (@MEDIA) OF 1140PX */
+
+
 /* Contents Media Code 1140PX */
 
 @media screen and (max-width:1140px){
 	
 .contentss{
 	padding-left: 380px;
-	margin-top: -600px;
+	margin-top: -750px;
 }
 .contentsss{
 	padding-left: 380px;
@@ -410,7 +418,7 @@ nav .logo.space{
 }
 .Follow-Us{
 	margin-left: 0%;
-	margin-top: 500px;
+	margin-top: 650px;
 }
 .follow{
 	letter-spacing: 1px;
@@ -434,6 +442,8 @@ nav .logo.space{
 }
 
 /* Contents Media Code 1140PX  ENDS!! */
+
+/* Nav Bar 980PX  code */
 @media (max-width: 980px){
   nav .menu-icon,
   nav .cancel-icon,
@@ -445,6 +455,62 @@ nav .logo.space{
     right: 30px;
   }
 }
+/* Nav Bar 980PX  code ENDS!!*/
+
+/* Contents Media Code 980PX  !! */
+
+@media screen and (max-width: 980px){
+	.contentss{
+	padding-left: 200px;
+	margin-top: -1000px;
+    }
+	.contentss img{
+	height: 50%;
+	width: 75%;
+    }
+   .contentsss{
+	padding-left: 200px;
+	margin-top: 20px;
+    }
+	.contentsss img{
+	height: 50%;
+	width: 75%;
+    }
+	.just-added-text{
+	margin-left: -15px;
+	font-size: 20px;
+    }
+    .just-added-hr{
+	margin-left: 70px;
+    }
+	.Follow-Us{
+	margin-left: 0%;
+	margin-top: 900px;
+}
+    .follow{
+	letter-spacing: 1px;
+	text-align: center;
+	font-weight: bold;
+}
+.girl{
+    clip-path: circle();
+	width: 50px;
+	margin-left: 365px;
+}
+.in{
+    clip-path: square();
+	width: 50px;
+	margin-left: 45px;
+}
+.gmail{
+    clip-path: circle();
+	width: 50px;
+	margin-left: 45px;
+}
+}
+
+/* Contents Media Code 980PX  ENDS!! */
+
 @media (max-width: 500px){
   nav .menu-icon,
   nav .cancel-icon,
