@@ -18,12 +18,6 @@ nav{
   height: 70px;
   padding: 0 100px;
 }
-nav .logo{
-  color: #fff;
-  font-size: 30px;
-  font-weight: 600;
-  letter-spacing: -1px;
-}
 nav .nav-items{
   display: flex;
   flex: 1;
@@ -708,6 +702,13 @@ nav .logo.space{
     margin: 0 10px;
     font-size: 16px;
   }
+  nav .menu-icon{
+	  padding-left: 30px;
+  }
+  nav .cancel-icon,
+  nav .search-icon{
+	  padding-right: 30px;
+  }
 }
 .content{
   position: absolute;
@@ -725,6 +726,53 @@ nav .logo.space{
 }
 .content .space{
   margin: 10px 0;
+}
+@media screen and (max-width: 400px){
+	.contentss{
+	padding-left: 23px;
+	margin-top: -800px;
+    }
+	.contentss img{
+	height: 50%;
+	width: 95%;
+    }
+   .contentsss{
+	padding-left: 23px;
+	margin-top: 20px;
+    }
+	.contentsss img{
+	height: 50%;
+	width: 95%;
+    }
+	.just-added-text{
+	margin-left: -265px;
+	font-size: 20px;
+    }
+    .just-added-hr{
+	margin-left: -75px;
+	margin-top: -20px;
+    }
+	.just-added-hr hr{
+	width: 95%;
+    }
+	l{
+		padding-left:70px;
+	}
+	.Follow-Us{
+	margin-left: 0%;
+	margin-top: 700px;
+}
+    .didnot{
+	margin-left: -80px;
+}
+    .girl{
+    clip-path: circle();
+	width: 50px;
+	margin-left: 75px;
+}
+    nav .logo{
+	padding-left: 10px;
+}
 }
 @media (max-width: 450px){
   nav .menu-icon,
