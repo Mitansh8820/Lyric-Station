@@ -564,7 +564,6 @@ nav .logo.space{
 	margin-left: 45px;
 }
 }
-}
 
 /* Contents Media Code 700PX ENDS!! */
 
@@ -593,6 +592,65 @@ nav .logo.space{
 .content .space{
   margin: 10px 0;
 }
+/* Contents Media Code 480PX !! */
+
+   @media screen and (max-width: 480px){
+    .contentss{
+	padding-left: 23px;
+	margin-top: -900px;
+    }
+	.contentss img{
+	height: 50%;
+	width: 95%;
+    }
+   .contentsss{
+	padding-left: 23px;
+	margin-top: 20px;
+    }
+	.contentsss img{
+	height: 50%;
+	width: 95%;
+    }
+	.just-added-text{
+	margin-left: -225px;
+	font-size: 20px;
+    }
+    .just-added-hr{
+	margin-left: -75px;
+	margin-top: -20px;
+    }
+	.just-added-hr hr{
+	width: 95%;
+    }
+	l{
+		padding-left:70px;
+	}
+	.Follow-Us{
+	margin-left: 0%;
+	margin-top: 800px;
+}
+    .didnot{
+		margin-right: 100px;
+	}
+.girl{
+    clip-path: circle();
+	width: 50px;
+	margin-left: 115px;
+}
+.in{
+    clip-path: square();
+	width: 50px;
+	margin-left: 45px;
+}
+.gmail{
+    clip-path: circle();
+	width: 50px;
+	margin-left: 45px;
+}
+   }
+   
+/* Contents Media Code 480PX ENDS!! */
+
 @media (max-width: 400px){
   nav .menu-icon,
   nav .cancel-icon,
