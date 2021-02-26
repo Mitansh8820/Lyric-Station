@@ -726,6 +726,26 @@ nav .logo.space{
 	overflow-x: hidden;
 	}
 }
+@media (max-width: 360px){
+ nav{
+	background-size: 80% 100%;
+	}	
+ nav .cancel-icon{
+    margin-left: 300px;
+  }
+ nav .menu-icon{
+	margin-left: 270px; 
+ }
+ .just-added-text{
+	margin-left: -290px;
+	font-size: 20px;
+    }
+ .girl{
+    clip-path: circle();
+	width: 50px;
+	margin-left: 60px;
+ }
+}
 @media (max-width: 340px){
  nav{
 	background-size: 80% 100%;
@@ -743,6 +763,6 @@ nav .logo.space{
  .girl{
     clip-path: circle();
 	width: 50px;
-	margin-left: 45px;
+	margin-left: 50px;
 }
 }
