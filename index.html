@@ -6,7 +6,7 @@
     <title>Home - Lyric Station</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="kit.js"></script>
 	<style>
 	.blurImg{
 	width: 100%;
@@ -26,20 +26,20 @@
 <span class="fas fa-bars"></span></div>
 
 <div class="logo">
-<img src = "lyrics.png" width="70%"></div>
+<img src = "2.png" width="70%"></div>
 
 <div class="nav-items">
 <li><a href="https://mitansh8820.github.io/Lyric-Station/">Home</a></li>
 <li><a href="https://mitansh8820.github.io/About-Lyric-Station/">About</a></li>
 <li><a href="https://mitansh8820.github.io/Request-Lyrics-Lyric-Station/">Request Lyrics</a></li>
 </div>
-
-
+<div class="cancel-icon">
+<span class="fas fa-times"></span></div>
 </nav>
+
  <script async src="https://cse.google.com/cse.js?cx=2a93c96138bfa01e9"></script>
  <div class="gcse-search"></div>
 
-<!--SEARCH BAR CODING ENDS-->
 
 <!--Blur Image-->
 <div class = "blurImg">
@@ -51,12 +51,7 @@
    </li>
   </ul>
 
-    <div class="content">
-      <header class="space"><!--Responsive Navbar with Search Box--></header>
-      <div class="space text">
-<!--using HTML CSS & JavaScript-->
-</div>
-</div>
+    
 </div>
 
    <!--ALL CONTENT (JUST ADDED SONGS)-->
@@ -101,28 +96,19 @@
 
 <script>
     const menuBtn = document.querySelector(".menu-icon span");
-    const searchBtn = document.querySelector(".search-icon");
     const cancelBtn = document.querySelector(".cancel-icon");
     const items = document.querySelector(".nav-items");
     const form = document.querySelector("form");
     menuBtn.onclick = ()=>{
       items.classList.add("active");
       menuBtn.classList.add("hide");
-      searchBtn.classList.add("hide");
       cancelBtn.classList.add("show");
     }
     cancelBtn.onclick = ()=>{
       items.classList.remove("active");
       menuBtn.classList.remove("hide");
-      searchBtn.classList.remove("hide");
       cancelBtn.classList.remove("show");
       form.classList.remove("active");
-      cancelBtn.style.color = "#ff3d00";
-    }
-    searchBtn.onclick = ()=>{
-      form.classList.add("active");
-      searchBtn.classList.add("hide");
-      cancelBtn.classList.add("show");
     }
   </script>
 
